@@ -1,3 +1,27 @@
 // Place all the styles related to the answer controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  text-align: left;
+  justify-content: space-around;
+}
+
+#user-question {
+  background-color: rgba(189, 183, 107, 50%);
+  padding: 10px 0 10px 0;
+  maring-bottom: 5px;
+}
+
+#user-question span {
+  font-style: italic;
+}
+
+#coach-answer {
+  background-color: rgba(189, 183, 107, 50%);
+  padding: 10px 0 10px 0;
+}
+
+#coach-answer span {
+  font-style: italic;
+}

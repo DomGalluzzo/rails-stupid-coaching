@@ -1,13 +1,19 @@
-<div id="user-question">
-  <blockquote>
-    <p><%= params[:question] %></p>
-    <p>-You</p>
-  </blockquote>
-</div>
+<div class="container">
+  <div id="user-question">
+    <blockquote>
+      <p><%= params[:question] %></p>
+      <p><span>-You</span></p>
+    </blockquote>
+  </div>
 
-<div id="coach-answer">
-  <blockquote>
-    <p><%= @answer %></p>
-    <p>-Your Coach</p>
-  </blockquote>
+  <div id="coach-answer">
+    <blockquote>
+      <p><%= @answer %></p>
+      <p><span>-Your Coach</span></p>
+    </blockquote>
+  </div>
+
+  <div class="home-link">
+    <%= link_to "Ask another question", question_path %>
+  </div>
 </div>
